@@ -4,6 +4,11 @@ version = "0.1.0"
 authors = ["Robin Appelman <robin@icewind.nl>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+dotenv = "0.15.0"
+main_error = "0.1.0"
+tokio = { version = "0.2", features = ["macros"] }
+warp = "0.2"
+ctrlc = "3.1.4"
+hostname = "0.3.1"
+ryzen-reader = "0.1"
